@@ -51,98 +51,100 @@ arm.flex();                             // 3)
 arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
-//  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  1) 
+//  Noun: car
+//  action 1: the car turns on
+car.start();
+//  action 2: the car moves forward
+car.moveForward();
+//  action 3: the car stops
+car.stop();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: chef
+//  action 1: the chef collects ingredients
+chef.collectIngredients();
+//  action 2: the chef dices vegetables
+chef.diceVeggies();
+//  action 3: the chef burns the onions
+chef.burnOnions();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: teacher
+//  action 1: the teacher prepares the lesson
+teacher.prepareLesson();
+//  action 2: the teacher grades tests
+teacher.gradeTest();
+//  action 3: the teacher tutors after school
+teacher.tutor();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: pianist
+//  action 1: the pianist plays a C Maj chord   
+pianist.playCMaj();
+//  action 2: the pianist plays a glissando
+pianist.gliss();
+//  action 3: the pianist activates the sustain pedal
+pianist.activateSustain();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: ghost
+//  action 1: the ghost opens the closet door
+ghost.openCloset();
+//  action 2: the ghost turns off a light
+ghost.turnOffLight();
+//  action 3: the ghost breaks a vase
+ghost.breakVase();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: cat
+//  action 1: the cat sleeps
+cat.sleep();
+//  action 2: the cat eats
+cat.eat();
+//  action 3: the cat walks on the piano
+cat.walkOnPiano();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: quarterback
+//  action 1: the quarterback throws the ball
+quarterback.throwBall();
+//  action 2: the quarterback runs the ball
+quatrerback.run();
+//  action 3: the quarterback scores
+quarterback.score();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: baker
+//  action 1: the baker kneads the dough
+baker.knead();
+//  action 2: the baker bakes a cake
+baker.bakeCake();
+//  action 3: the baker decorates the cake
+baker.decorateCake();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: policeman
+//  action 1: the policeman patrols
+policeman.patrol
+//  action 2: the policeman arrests
+policeman.arrest();
+//  action 3: the policeman eats a donut
+policeman.eatDonut();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: painter
+//  action 1: the painter sets up their easel
+painter.setUp();
+//  action 2: the painter mixes colors
+painter.mixColors();
+//  action 3: the painter paints
+painter.paint();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +152,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
