@@ -80,7 +80,7 @@ teacher.tutor();
 //  action 1: the pianist plays a C Maj chord   
 pianist.playCMaj();
 //  action 2: the pianist plays a glissando
-pianist.gliss();
+pianist.playGliss();
 //  action 3: the pianist activates the sustain pedal
 pianist.activateSustain();
 //  5)
@@ -109,17 +109,17 @@ quatrerback.run();
 //  action 3: the quarterback scores
 quarterback.score();
 //  8)
-//  Noun: baker
-//  action 1: the baker kneads the dough
-baker.knead();
-//  action 2: the baker bakes a cake
-baker.bakeCake();
-//  action 3: the baker decorates the cake
-baker.decorateCake();
+//  Noun: weightLifter
+//  action 1: the weight lifter bench presses
+weightLifter.benchPress();
+//  action 2: the weight lifter does pull ups
+weightLifter.pullUp();
+//  action 3: the weight lifter does dead lifts
+weightLifter.deadLift();
 //  9)
 //  Noun: policeman
 //  action 1: the policeman patrols
-policeman.patrol
+policeman.patrol();
 //  action 2: the policeman arrests
 policeman.arrest();
 //  action 3: the policeman eats a donut
